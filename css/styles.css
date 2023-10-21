@@ -549,6 +549,9 @@ span {
     padding-left: 16px;
     color: #FFF;
     font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .footer-form-input::placeholder {
@@ -560,6 +563,10 @@ span {
     gap: 24px;
     padding-left: 80px;
 } 
+
+.footer-icon-button {
+    margin-left: 16px;
+}
 
 .footer-form-btn {
     padding: 8px 24px; 
@@ -578,6 +585,7 @@ span {
     gap: 16px;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    min-width: 165px;
 }
 
 .footer-form-btn:hover,
