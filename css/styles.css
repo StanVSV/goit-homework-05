@@ -678,7 +678,8 @@ span {
 
 .modal-btn:hover .modal-btn-icon,
 .modal-btn:focus .modal-btn-icon {
-    fill: #ffffff
+    background-color: #4D5AE5;
+    border: none;
 }
 
 .modal-btn-icon {
