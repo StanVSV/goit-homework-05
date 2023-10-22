@@ -758,13 +758,6 @@ span {
     margin-bottom: 8px;
 }
 
-.modal-label {
-    display: block;
-    color: var(--LIGHT-SLATE, #8E8F99);
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-}
 
 .modal-icon {
     position: absolute;
@@ -775,20 +768,13 @@ span {
 }
 
 .modal-textarea {
-    display: block;
-    width: 100%;
-    height: 120px;
-    border-radius: 4px;
-    border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
-    background-color: transparent;
-    padding-top: 8px;
-    padding-left: 16px;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    resize: none;
 }
 
 .modal-textarea::placeholder {
     color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+}
+
+.modal-label {
 }
 
 .check-text {
