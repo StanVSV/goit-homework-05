@@ -671,8 +671,8 @@ span {
 
 
 .modal-btn:hover,
-.modal-btn:hover {
-    background-color: #4D5AE5;
+.modal-btn:focus {
+    background-color: #404bbf;;
     border: none;
 }
 
