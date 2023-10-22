@@ -535,7 +535,7 @@ span {
 }
 
 .footer-button {
-    margin-right: auto;
+    margin-left: auto;
 }
 
 .footer-form-input {
@@ -561,7 +561,6 @@ span {
 .footer-form {
     display: flex;
     gap: 24px;
-    padding-left: 80px;
 } 
 
 .footer-icon-button {
@@ -582,7 +581,6 @@ span {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     min-width: 165px;
@@ -601,7 +599,6 @@ span {
     line-height: 1.5;
     letter-spacing: 0.02em; 
     margin-bottom: 16px;
-    padding-left: 80px;
 }
 
 /**=======================================*/
@@ -761,7 +758,6 @@ span {
 
 .input-wrap {
     position: relative;
-    margin-bottom: 16px;
 }
 
 .modal-form-wrap {
@@ -775,6 +771,7 @@ span {
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #2E2F42;
 }
 
 .modal-textarea-container{
@@ -822,24 +819,17 @@ span {
     font-size: 12px;
     line-height: 1.17; 
     letter-spacing: 0.04em;
-    display: flex;
     align-items: center;
     outline: transparent;
-    margin-bottom: 24px;
 }
 
 
 .check-text-link {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
     color: var(--IRIS, #4D5AE5);
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.04em;
     text-decoration-line: underline;
-    display: flex;
-    align-items: center;
 }
 
 .check-text-box {
