@@ -818,7 +818,6 @@ span {
 }
 
 .check-text {
-    display: inline-flex;
     color: var(--LIGHT-SLATE, #8E8F99);
     font-size: 12px;
     line-height: 1.17; 
@@ -831,6 +830,7 @@ span {
 
 
 .check-text-link {
+    display: inline-flex;
     color: var(--IRIS, #4D5AE5);
     font-size: 12px;
     line-height: 16px;
