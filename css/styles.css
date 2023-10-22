@@ -749,14 +749,16 @@ span {
     position: relative;
 }
 
+.modal-form-wrap {
+    margin-bottom: 8px;
+}
+
 .modal-label {
     display: block;
     color: var(--LIGHT-SLATE, #8E8F99);
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.04em;
-    margin-bottom: 4px;
-    margin-bottom: 8px;
 }
 
 .modal-icon {
