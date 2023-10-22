@@ -851,7 +851,11 @@ span {
 }
 
 .check-text-icon {
+    fill: #FFF;
+}
 
+.modal-check:focus + .check-text > .check-text-box {
+    border-color: #4D5AE5;
 }
 
 .modal-check:checked + .check-text > .check-text-box {
