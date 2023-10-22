@@ -775,26 +775,32 @@ span {
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     outline: transparent;
-    padding: 8px 16px;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    font-size: 12px; 
     border-radius: 4px;
-    border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
     background-color: transparent;
-    margin-bottom: 16px
+    margin-bottom: 16px;
 }
 
-.modal-textarea:hover {
+.modal-textarea:hover,
+.modal-textarea:focus {
     border-color: #4D5AE5;
 }
 
 .modal-textarea::placeholder {
     color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+    padding: 8px 16px;
 }
 
 .modal-label {
-    display: block;
+    color: var(--LIGHT-SLATE, #8E8F99);
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+}
+
+.modal-label-textarea {
     color: var(--LIGHT-SLATE, #8E8F99);
     font-size: 12px;
     line-height: 1.17;
