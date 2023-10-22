@@ -777,6 +777,9 @@ span {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-textarea-container{
+    margin-bottom: 16px;
+}
 
 .modal-textarea {
     display: inline-flex; 
@@ -795,6 +798,7 @@ span {
     margin-bottom: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     padding: 8px 16px;
+    outline: transparent;
 }
 
 .modal-textarea:hover,
@@ -850,8 +854,13 @@ span {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.check-text-box:hover,
+.check-text-box:focus {
+    border-color: #4D5AE5;
+}
+
 .check-text-icon {
-    
+
 }
 
 .modal-check:checked + .check-text > .check-text-box {
