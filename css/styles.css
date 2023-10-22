@@ -670,10 +670,15 @@ span {
 
 
 
+.modal-btn:hover,
 .modal-btn:hover {
     background-color: #4D5AE5;
     border: none;
-    fill: #ffffff;
+}
+
+.modal-btn:hover .modal-btn-icon,
+.modal-btn:focus .modal-btn-icon {
+    fill: #ffffff
 }
 
 .modal-btn-icon {
@@ -691,7 +696,7 @@ span {
     margin-bottom: 16px; 
 }
 
-.modal-form-wrap {
+.modal-form-container {
     margin-bottom: 8px;
 }
 
